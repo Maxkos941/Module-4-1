@@ -88,7 +88,7 @@ Finally, you should see a GraphQL playground is showing in the explorer and the 
 For the `subql-starter` project, you can try to query with the following code to get a taste of how it works.
 
 ````graphql
-{
+
 query{
 stakingRewards(first: 3 orderBy:BLOCK_HEIGHT_ASC){
 nodes{
